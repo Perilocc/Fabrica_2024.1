@@ -1,4 +1,5 @@
 # Exemplo 1
+"""
 class Carro:
     
     def __init__(self, marca, modelo, ano):
@@ -19,3 +20,23 @@ carro.ligar()
 carro_de_hetcho = SmartCar("Jeep", "Compass", "2023")
 carro_de_hetcho.ligar()
 carro_de_hetcho.localizar()
+"""
+
+class Comida():
+    
+    def __init__(self, nome, preco, culinaria):
+        self.nome = nome
+        self.preco = preco
+        self.culinaria = culinaria
+
+    def vender(self):
+        print("Estou vendendo {} original da culinaria {} por {} mil reis".format(self.nome, self.culinaria, self.preco))
+        
+class Pizza(Comida):
+
+    def comer(self):
+        print("Estou comendo {} que comprei por {} mil reis".format(self.nome, self.preco))
+
+pizza = Pizza("Pizza portuguesa", 70, "italiana")
+pizza.comer()
+
