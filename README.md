@@ -31,10 +31,10 @@ Certifique-se de ter as dependências presentes no requirements.txt após ativar
 - A partir daqui você utilizará seus conhecimentos para manusear essa api
 
 # Métodos da CRUD
-GET: Para recuperar dados.\n
-POST: Para criar novos registros.\n
-PUT ou PATCH: Para atualizar registros existentes.\n
-DELETE: Para excluir registros.\n
+GET: Para recuperar dados.  
+POST: Para criar novos registros.  
+PUT ou PATCH: Para atualizar registros existentes.  
+DELETE: Para excluir registros.
 
 # Usando a API
 - Para criar um pokemon na API, você precisará colocar um nome de pokemon válido e clicar no botão POST. Isso adicionará, caso o pokemon seja válido, o pokemon a interface da API.
